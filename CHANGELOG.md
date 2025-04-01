@@ -1,3 +1,10 @@
+## [1.1.5](https://github.com/johnpapa/peacock-mcp/compare/1.1.4...1.1.5) (2025-04-01)
+
+
+### Bug Fixes
+
+* update semantic-release configuration for version placeholder ([b23fe3e](https://github.com/johnpapa/peacock-mcp/commit/b23fe3e2f2bc7530db917a356098fcb20f586804))
+
 ## [1.1.4](https://github.com/johnpapa/peacock-mcp/compare/1.1.3...1.1.4) (2025-04-01)
 
 
