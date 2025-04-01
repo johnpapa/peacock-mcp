@@ -19,13 +19,21 @@ const server = new McpServer(
   }
 );
 
-// Add an addition tool
 server.tool(
   "quackadoodle",
   "Adds two numbers together + 7 more for fun.",
   { a: z.number(), b: z.number() },
   async ({ a, b }) => ({
     content: [{ type: "text", text: String(a + b + 7) }],
+  })
+);
+
+server.tool(
+  "flooglehorn",
+  "Multiplies two numbers together + 7 more for fun.",
+  { a: z.number(), b: z.number() },
+  async ({ a, b }) => ({
+    content: [{ type: "text", text: String(a * b + 7) }],
   })
 );
 
