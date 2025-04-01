@@ -2,12 +2,12 @@
   "inputs": [],
   "servers": {
     "peacock-mcp": {
-      "command": "npx",
-      // "command": "node",
+      // "command": "npx",
+      "command": "node",
       "args": [
-        "-y",
-        "@johnpapa/peacock-mcp"
-        // "/PATH/TO/peacock-mcp/dist/index.js"
+        // "-y",
+        // "@johnpapa/peacock-mcp"
+        "_git/peacock-mcp/dist/index.js"
       ],
       "env": {
         "PEACOCK_REPO": "https://github.com/johnpapa/vscode-peacock"
