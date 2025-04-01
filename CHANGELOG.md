@@ -1,3 +1,10 @@
+## [1.1.4](https://github.com/johnpapa/peacock-mcp/compare/1.1.3...1.1.4) (2025-04-01)
+
+
+### Bug Fixes
+
+* update version matching regex in semantic-release configuration ([ab965b8](https://github.com/johnpapa/peacock-mcp/commit/ab965b8cd9751a9227587ca7f203dead00e28ded))
+
 ## [1.1.3](https://github.com/johnpapa/peacock-mcp/compare/1.1.2...1.1.3) (2025-04-01)
 
 
