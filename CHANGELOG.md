@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/johnpapa/peacock-mcp/compare/1.1.0...1.1.1) (2025-04-01)
+
+
+### Bug Fixes
+
+* add flooglehorn tool for multiplication functionality ([4091316](https://github.com/johnpapa/peacock-mcp/commit/40913165dd366fb491c5e236214500ddc4fd17a1))
+
 # [1.1.0](https://github.com/johnpapa/peacock-mcp/compare/1.0.0...1.1.0) (2025-04-01)
 
 
