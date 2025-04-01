@@ -45,7 +45,8 @@
     "build": "npx tsc",
     "dev": "tsc && concurrently \"tsc --watch\" \"nodemon dist/index.js\"",
     "inspector": "npx @modelcontextprotocol/inspector node build/index.js",
-    "release:check": "semantic-release --dry-run"
+    "release:check:old": "semantic-release --dry-run",
+    "release:check": "node -r dotenv/config ./node_modules/.bin/semantic-release --dry-run"
   },
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.8.0",
