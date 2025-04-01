@@ -16,28 +16,38 @@ const server = new McpServer(
 );
 
 // Add an addition tool
-server.tool("add", { a: z.number(), b: z.number() }, async ({ a, b }) => ({
-  content: [{ type: "text", text: String(a + b) }],
-}));
+server.tool(
+  "quackadoodle",
+  "Adds two numbers together + 7 more for fun.",
+  { a: z.number(), b: z.number() },
+  async ({ a, b }) => ({
+    content: [{ type: "text", text: String(a + b + 7) }],
+  })
+);
 
 // Async tool with external API call
-server.tool("fetch-weather", { city: z.string() }, async ({ city }) => {
-  const response = await fetch(`https://api.weather.com/${city}`);
-  const data = await response.text();
-  return {
-    content: [{ type: "text", text: data }],
-  };
-});
+server.tool(
+  "fetch-star-wars",
+  "Fetches the Star Wars information from an API, by person id",
+  { people_id: z.string() },
+  async ({ people_id }) => {
+    const response = await fetch(`https://swapi.dev/api/people/${people_id}`);
+    const data = await response.text();
+    return {
+      content: [{ type: "text", text: data }],
+    };
+  }
+);
 
-// Add a dynamic greeting resource
-server.resource("greeting", new ResourceTemplate("greeting://{name}", { list: undefined }), async (uri, { name }) => ({
-  contents: [
-    {
-      uri: uri.href,
-      text: `Hello, ${name}!`,
-    },
-  ],
-}));
+// // Add a dynamic greeting resource
+// server.resource("greeting", new ResourceTemplate("greeting://{name}", { list: undefined }), async (uri, { name }) => ({
+//   contents: [
+//     {
+//       uri: uri.href,
+//       text: `Hello, ${name}!`,
+//     },
+//   ],
+// }));
 
 async function main() {
   const transport = new StdioServerTransport();
