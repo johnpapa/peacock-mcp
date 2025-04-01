@@ -1,0 +1,18 @@
+{
+  "branches": ["main"],
+  "plugins": [
+    "@semantic-release/commit-analyzer",
+    "@semantic-release/release-notes-generator",
+    ["semantic-release-plugin-update-version-in-files", {
+      "files": [
+        {
+          "path": ["src/index.ts"],
+          "match": "version: \"\\d+\\.\\d+\\.\\d+\"",
+          "replace": "version: \"{{nextRelease.version}}\""
+        }
+      ]
+    }],
+    "@semantic-release/npm",
+    "@semantic-release/github"
+  ]
+}
