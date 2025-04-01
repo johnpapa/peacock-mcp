@@ -7,8 +7,8 @@
       "files": [
         {
           "path": ["src/index.ts"],
-          "match": "version: \"\\d+\\.\\d+\\.\\d+\"",
-          "replace": "version: \"{{nextRelease.version}}\""
+          "match": "(version:\\s*\")[\\d\\.]+(\",)",
+          "replace": "$1{{nextRelease.version}}$2"
         }
       ]
     }],
