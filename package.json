@@ -1,6 +1,6 @@
 {
   "name": "@johnpapa/peacock-mcp",
-  "version": "1.0.0",
+  "version": "1.0.10",
   "description": "Peacock Docs MCP Server demo",
   "license": "MIT",
   "publishConfig": {
