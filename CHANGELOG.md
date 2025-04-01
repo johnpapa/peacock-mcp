@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/johnpapa/peacock-mcp/compare/1.1.1...1.1.2) (2025-04-01)
+
+
+### Bug Fixes
+
+* update server version to 1.1.2 ([1543252](https://github.com/johnpapa/peacock-mcp/commit/15432523f0fee58dbf6d88a80b1df2101f5804c8))
+
 ## [1.1.1](https://github.com/johnpapa/peacock-mcp/compare/1.1.0...1.1.1) (2025-04-01)
 
 
