@@ -9,7 +9,7 @@ config();
 const server = new McpServer(
   {
     name: "peacock-mcp",
-    version: "1.0.10",
+    version: "1.1.2",
     description: "An MCP Server to retrieve Peacock usage information from the docs.",
   },
   {
