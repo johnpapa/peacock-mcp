@@ -2,7 +2,7 @@
 # Peacock MCP Server
 
 [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/johnpapa/peacock-mcp?hide_repo_select=true&ref=main&quickstart=true)
-![Node version](https://img.shields.io/badge/Node.js->=20-3c873a?style=flat-square)
+[![smithery badge](https://smithery.ai/badge/@johnpapa/peacock-mcp)](https://smithery.ai/server/@johnpapa/peacock-mcp)![Node version](https://img.shields.io/badge/Node.js->=20-3c873a?style=flat-square)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 [Features](#features) • [Tools](#tools) • [Setup](#setup) • [Configuring an MCP Host](#configuring-an-mcp-host)
@@ -35,6 +35,14 @@ MCP Server for the [Peacock extension for VS Code](https://peacockcode.dev), col
 ## 🛠️ Setup
 
 [Install Peacock for VS Code HERE](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock&wt.mc_id=vscodepeacock-github-jopapa).
+
+### Installing via Smithery
+
+To install Peacock MCP Server for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@johnpapa/peacock-mcp):
+
+```bash
+npx -y @smithery/cli install @johnpapa/peacock-mcp --client claude
+```
 
 ### Run the MCP Server Locally with MCP Inspector
 
