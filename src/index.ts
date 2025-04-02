@@ -19,38 +19,6 @@ const server = new McpServer(
   }
 );
 
-server.tool(
-  "quackadoodle",
-  "Adds two numbers together + 7 more for fun.",
-  { a: z.number(), b: z.number() },
-  async ({ a, b }) => ({
-    content: [{ type: "text", text: String(a + b + 7) }],
-  })
-);
-
-server.tool(
-  "flooglehorn",
-  "Multiplies two numbers together + 7 more for fun.",
-  { a: z.number(), b: z.number() },
-  async ({ a, b }) => ({
-    content: [{ type: "text", text: String(a * b + 7) }],
-  })
-);
-
-// Async tool with external API call
-server.tool(
-  "fetch-star-wars",
-  "Fetches the Star Wars information from an API, by person id",
-  { people_id: z.string() },
-  async ({ people_id }) => {
-    const response = await fetch(`https://swapi.dev/api/people/${people_id}`);
-    const data = await response.text();
-    return {
-      content: [{ type: "text", text: data }],
-    };
-  }
-);
-
 // Tool to fetch Peacock documentation and answer questions
 server.tool(
   "fetch-peacock-docs",
