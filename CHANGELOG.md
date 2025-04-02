@@ -1,3 +1,10 @@
+## [1.1.10](https://github.com/johnpapa/peacock-mcp/compare/1.1.9...1.1.10) (2025-04-02)
+
+
+### Bug Fixes
+
+* update version to 1.1.10 and enhance documentation fetching tool description ([d0ce102](https://github.com/johnpapa/peacock-mcp/commit/d0ce1020ecc634f21982225ebc78207c31cdcc44))
+
 ## [1.1.9](https://github.com/johnpapa/peacock-mcp/compare/1.1.8...1.1.9) (2025-04-02)
 
 
