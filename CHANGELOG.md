@@ -1,3 +1,10 @@
+## [1.1.7](https://github.com/johnpapa/peacock-mcp/compare/1.1.6...1.1.7) (2025-04-02)
+
+
+### Bug Fixes
+
+* remove semantic-release plugin and update version to 1.1.7 ([1d13763](https://github.com/johnpapa/peacock-mcp/commit/1d13763ab328e2b5c4e1628da69da0ba07b1cf3e))
+
 ## [1.1.6](https://github.com/johnpapa/peacock-mcp/compare/1.1.5...1.1.6) (2025-04-01)
 
 
