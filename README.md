@@ -27,7 +27,7 @@ MCP Server for the [Peacock extension for VS Code](https://peacockcode.dev), col
 
 - **Description**: Fetches the Peacock for VS Code extension docs from its GitHub repository and answers questions based on the documentation
 - **Input**:
-  - `prompt` (number): The unique ID of the character.
+  - `prompt` (query): The question about Peacock.
 - **Returns**: Your answer!
 
 <a name="setup"></a>

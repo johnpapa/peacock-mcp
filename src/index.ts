@@ -13,7 +13,7 @@ const instructions = getPeacockInstructions();
 const server = new McpServer(
   {
     name: "peacock-mcp",
-    version: "1.1.13",
+    version: "1.1.14",
     description: "An MCP Server to retrieve Peacock usage information from the docs.",
   },
   {
