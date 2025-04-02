@@ -1,3 +1,10 @@
+## [1.1.13](https://github.com/johnpapa/peacock-mcp/compare/1.1.12...1.1.13) (2025-04-02)
+
+
+### Bug Fixes
+
+* move custom instructions to a separate utility function and update version to 1.1.13 ([d0704be](https://github.com/johnpapa/peacock-mcp/commit/d0704be34bcb390fbda9ae7afb56fbda6c369d32))
+
 ## [1.1.12](https://github.com/johnpapa/peacock-mcp/compare/1.1.11...1.1.12) (2025-04-02)
 
 
