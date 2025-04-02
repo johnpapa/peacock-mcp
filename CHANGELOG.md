@@ -1,3 +1,11 @@
+## [1.1.12](https://github.com/johnpapa/peacock-mcp/compare/1.1.11...1.1.12) (2025-04-02)
+
+
+### Bug Fixes
+
+* remove redundant question about setting VS Code accent colors from instructions ([a432d46](https://github.com/johnpapa/peacock-mcp/commit/a432d461cf811e407e325667d1860c2a2cb7dd8c))
+* update version to 1.1.12 and refine MCP server instructions ([59a5231](https://github.com/johnpapa/peacock-mcp/commit/59a52315912d260d80ba880690aac719965c9689))
+
 ## [1.1.11](https://github.com/johnpapa/peacock-mcp/compare/1.1.10...1.1.11) (2025-04-02)
 
 
