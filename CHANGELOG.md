@@ -1,3 +1,10 @@
+## [1.1.9](https://github.com/johnpapa/peacock-mcp/compare/1.1.8...1.1.9) (2025-04-02)
+
+
+### Bug Fixes
+
+* update version to 1.1.9 and add Smithery configuration file ([6906b4b](https://github.com/johnpapa/peacock-mcp/commit/6906b4beebe56d43523ffc3a5b3b100018f01964))
+
 ## [1.1.8](https://github.com/johnpapa/peacock-mcp/compare/1.1.7...1.1.8) (2025-04-02)
 
 ## [1.1.7](https://github.com/johnpapa/peacock-mcp/compare/1.1.6...1.1.7) (2025-04-02)
