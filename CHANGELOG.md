@@ -1,3 +1,5 @@
+## [1.1.8](https://github.com/johnpapa/peacock-mcp/compare/1.1.7...1.1.8) (2025-04-02)
+
 ## [1.1.7](https://github.com/johnpapa/peacock-mcp/compare/1.1.6...1.1.7) (2025-04-02)
 
 
