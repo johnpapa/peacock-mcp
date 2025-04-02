@@ -1,3 +1,10 @@
+## [1.1.11](https://github.com/johnpapa/peacock-mcp/compare/1.1.10...1.1.11) (2025-04-02)
+
+
+### Bug Fixes
+
+* update version to 1.1.11 and enhance MCP server instructions ([7a67a21](https://github.com/johnpapa/peacock-mcp/commit/7a67a21ef0ff15a3a4908da09bbdb750d37a0e75))
+
 ## [1.1.10](https://github.com/johnpapa/peacock-mcp/compare/1.1.9...1.1.10) (2025-04-02)
 
 
