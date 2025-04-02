@@ -1,3 +1,10 @@
+## [1.1.14](https://github.com/johnpapa/peacock-mcp/compare/1.1.13...1.1.14) (2025-04-02)
+
+
+### Bug Fixes
+
+* update version to 1.1.14 and refine query parameter description in documentation ([6d4bb81](https://github.com/johnpapa/peacock-mcp/commit/6d4bb812d368194a0e8cddec8d585e4550679a5d))
+
 ## [1.1.13](https://github.com/johnpapa/peacock-mcp/compare/1.1.12...1.1.13) (2025-04-02)
 
 
