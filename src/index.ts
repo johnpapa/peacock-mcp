@@ -3,6 +3,7 @@ import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
 import { handleDocumentationQuery } from "./utils/peacock-docs.js";
 import { getPeacockInstructions } from "./utils/instructions.js";
+import { z } from "zod";
 
 const instructions = getPeacockInstructions();
 
