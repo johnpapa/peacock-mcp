@@ -1,19 +1,15 @@
 #!/usr/bin/env node
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
 import { StdioServerTransport } from "@modelcontextprotocol/sdk/server/stdio.js";
-import { z } from "zod";
 import { handleDocumentationQuery } from "./utils/peacock-docs.js";
-import { config } from "dotenv";
 import { getPeacockInstructions } from "./utils/instructions.js";
-config();
 
-// Create custom instructions for the MCP server
 const instructions = getPeacockInstructions();
 
 const server = new McpServer(
   {
     name: "peacock-mcp",
-    version: "1.1.14",
+    version: "1.1.15",
     description: "An MCP Server to retrieve Peacock usage information from the docs.",
   },
   {
