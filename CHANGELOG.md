@@ -1,3 +1,11 @@
+## [1.1.15](https://github.com/johnpapa/peacock-mcp/compare/1.1.14...1.1.15) (2025-04-04)
+
+
+### Bug Fixes
+
+* add zod dependency and import in index.ts for validation ([7c6020e](https://github.com/johnpapa/peacock-mcp/commit/7c6020e5be19e978b985a97c36be086b26ad678b))
+* update version to 1.1.15 and remove unused dependencies and schema type from configuration ([9a92766](https://github.com/johnpapa/peacock-mcp/commit/9a92766d9f2e20fa298a1bc9a40dd0a037611c32))
+
 ## [1.1.14](https://github.com/johnpapa/peacock-mcp/compare/1.1.13...1.1.14) (2025-04-02)
 
 
