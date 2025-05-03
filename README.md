@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/johnpapa-peacock-mcp-badge.png)](https://mseep.ai/app/johnpapa-peacock-mcp)
+
 <div align="center">
 # Peacock MCP Server
 
