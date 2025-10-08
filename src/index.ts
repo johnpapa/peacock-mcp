@@ -21,10 +21,22 @@ const server = new McpServer(
   }
 );
 
+// Tool to say hi
+server.tool(
+  "say-hi",
+  "A friendly greeting tool that says hi",
+  {},
+  async () => {
+    return {
+      content: [{ type: "text", text: "Hi! 👋 How can I help you today?" }],
+    };
+  }
+);
+
 // Tool to fetch Peacock documentation and answer questions
 server.tool(
   "fetch-peacock-docs",
-  "Fetches the Peacock for VS Code extension docs from its GitHub repository and answers questions based on the documentation  ",
+  "Fetches the Peacock for VS Code extension docs from its GitHub repository and answers questions based on the documentation",
   { query: z.string().describe("The question to answer based on the Peacock documentation") },
   async ({ query }) => {
     try {
