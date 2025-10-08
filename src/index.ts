@@ -21,6 +21,18 @@ const server = new McpServer(
   }
 );
 
+// Tool to say hi
+server.tool(
+  "say-hi",
+  "A friendly greeting tool that says hi",
+  {},
+  async () => {
+    return {
+      content: [{ type: "text", text: "Hi! 👋 How can I help you today?" }],
+    };
+  }
+);
+
 // Tool to fetch Peacock documentation and answer questions
 server.tool(
   "fetch-peacock-docs",
