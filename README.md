@@ -2,7 +2,7 @@
 # Peacock MCP Server
 
 [![Open project in GitHub Codespaces](https://img.shields.io/badge/Codespaces-Open-blue?style=flat-square&logo=github)](https://codespaces.new/johnpapa/peacock-mcp?hide_repo_select=true&ref=main&quickstart=true)
-[![smithery badge](https://smithery.ai/badge/@johnpapa/peacock-mcp)](https://smithery.ai/server/@johnpapa/peacock-mcp)![Node version](https://img.shields.io/badge/Node.js->=20-3c873a?style=flat-square)
+[![LightNow capabilities](https://lightnow.ai/badge/io.github.johnpapa/peacock-mcp)](https://lightnow.ai/servers/io.github.johnpapa/peacock-mcp)![Node version](https://img.shields.io/badge/Node.js->=20-3c873a?style=flat-square)
 [![License](https://img.shields.io/badge/License-MIT-yellow?style=flat-square)](LICENSE)
 
 [![Install with NPM in VS Code](https://img.shields.io/badge/VS_Code-NPM-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect?url=vscode:mcp/install?%7B%22name%22%3A%22peacock-mcp%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40johnpapa%2Fpeacock-mcp%22%5D%2C%22env%22%3A%7B%7D%2C%22inputs%22%3A%5B%5D%7D) [![Install with NPM in VS Code Insiders](https://img.shields.io/badge/VS_Code_Insiders-NPM-24bfa5?style=flat-square&logo=visualstudiocode&logoColor=white)](https://insiders.vscode.dev/redirect?url=vscode-insiders:mcp/install?%7B%22name%22%3A%22peacock-mcp%22%2C%22command%22%3A%22npx%22%2C%22args%22%3A%5B%22-y%22%2C%22%40johnpapa%2Fpeacock-mcp%22%5D%2C%22env%22%3A%7B%7D%2C%22inputs%22%3A%5B%5D%7D)
